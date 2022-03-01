@@ -34,7 +34,7 @@
 }
 
 #commentSection {
-    background-color: #cccccc;
+    background-color: #d9d9d9;
     height: 500px;
     width: 70%;
     min-height: 100vh;
@@ -77,4 +77,8 @@
     cursor: pointer;
     font-size: 17px;
     color: #65b3cd;
+}
+
+#image {
+    
 }
