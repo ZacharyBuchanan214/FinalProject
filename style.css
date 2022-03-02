@@ -57,9 +57,46 @@
     width: 100px;
 }
 
+#displayButtons {
+    margin: 8px 10px 0 0;
+}
+
+#editButton {
+    margin-right: 3px;
+}
+
 #comment {
     margin-right: 15px;
     padding: 5px 900px 5px 5px;
+}
+
+#commentContainer {
+    background-color: white;
+    display: flex;
+    margin: 20px 30px;
+    height: 150px;
+    
+}
+
+#nameButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#userNameDisplay {
+    width: 95%;
+}
+
+#seperatedDisplayName {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#commentContent {
+    margin: 10px 0px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .button {
@@ -80,5 +117,14 @@
 }
 
 #image {
-    
+    background-image: url('images/Picture1.png');
+    background-size: cover;
+    background-position: center;
+    width: 5%;
+    height: 50px;
+    margin: 45px 10px;
+}
+
+.formCommentClass {
+    display: none;
 }
